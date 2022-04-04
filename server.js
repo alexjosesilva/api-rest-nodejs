@@ -24,7 +24,7 @@ app.get('/api', function(req, res){
         var response = {status: "falha", resultado: err};
         res.json(response);
       } else {
-        var obj = JSON.parse(data);
+        var obj = JSON.parse(data); 
         res.json(obj);
 
       }

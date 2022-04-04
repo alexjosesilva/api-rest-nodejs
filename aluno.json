@@ -1,9 +1,22 @@
- { 
-     "alunos": 
-            [ 
-                { "id": 1 , "nome": "Napoleao", "idade": "90"}, 
-                { "id": 2 , "nome": "Lampião", "idade": "33" }, 
-                { "id": 3 , "nome": "Xuxa", "idade": "22"}, 
-                { "id": 4, "nome": "Fulano de Tall", "idade": "11" } 
-            ]
-}
+[
+    {
+        "nome": "Napoleao",
+        "idade": "90",
+        "id": 1
+    },
+    {
+        "nome": "Lampião",
+        "idade": "33",
+        "id": 2
+    },
+    {
+        "nome": "Xuxa",
+        "idade": "22",
+        "id": 3
+    },
+    {
+        "nome": "Machado de Assis",
+        "idade": "40",
+        "id": 4
+    }
+]
