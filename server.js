@@ -15,8 +15,8 @@ app.use(function(req, res, next){
  res.setHeader("Access-Control-Allow-Credentials", true);
  next();
 });
-
-app.listen(9090, function(){ console.log('Servidor Web rodando na porta 9090') });
+//port 9090
+app.listen(process.env.PORT, function(){ console.log('Servidor Web rodando na porta 9090') });
 
 app.get('/api', function(req, res){
     fs.readFile('aluno.json', "utf8", function(err, data){
