@@ -1,4 +1,4 @@
-Employee Database
+Student Database
 =====================
 
 **A sample Student Database CRUD application with Node.js, Express and MongoDB.**
